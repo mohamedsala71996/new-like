@@ -1,0 +1,55 @@
+body {
+  font-family: "Poppins", sans-serif;
+  font-style: normal;
+}
+
+
+.landing-parent .landing-img {
+  background: url("../assets/spash.jpg");
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+  height: 100vh;
+  position: relative;
+  color: #fff;
+  overflow: hidden;
+}
+
+#myButton{
+  background-color: #ff0000;
+  color: white;
+}
+.navbar-light .navbar-brand, .navbar-nav .nav-link .nav-collapse{ 
+  color: black;
+  transition: all 0.1s ease;
+
+}
+.navbar-light .navbar-toggler-icon {
+  background-color: wheat;
+}
+.navbar-light .navbar-nav .nav-link:hover {
+  color:wheat;
+  background-color: blue;
+
+  transform: scale(1.2);
+  font-size: larger;
+}
+#imageBox {
+  width: 200px;
+  height: 200px;
+  border: 2px dashed #ccc;
+  cursor: pointer;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-size: 18px;
+  color: #666;
+}
+#imageBox:hover {
+  border-color: #aaa;
+}
+#imagePreview {
+  max-width: 100%;
+  max-height: 100%;
+}
